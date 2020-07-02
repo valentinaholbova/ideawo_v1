@@ -1,0 +1,55 @@
+.services_and_offerings {
+  margin-top: 0px;
+}
+
+.spacer_custom {
+  background-color: transparent;
+  height: px;
+}
+.splitter_custom {
+  position: relative;
+  margin: 0 auto;
+  height: 8px;
+  width: 100%;
+  background-color: #1F487E;
+  margin-top: -4px;
+  }
+
+.offerings_headline {
+  margin-top: 40px;
+  line-height: 5px;
+}
+
+.offerings_headline h2 {
+  font-size: 30px;
+  color: #1F487E;
+}
+
+.offerings_headline p {
+  color: gray;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/*smartphone (iphone 6plus) optimisation*/
+@media (max-width: 420px) {
+  .offerings_headline h2 {
+    font-size: 1.5em;
+  }
+
+  .offerings_headline p {
+    font-size: 1em;
+    margin-top: -2px;
+  }
+}
+
+/*smartphone (iphone 6) optimisation*/
+@media (max-width: 380px) {
+  .offerings_headline h2 {
+    font-size: 1.4em;
+}
+  .offerings_headline p {
+    font-size: 0.9em;
+    margin-top: -3px;
+  }
+}

@@ -1,0 +1,131 @@
+.block_bg {
+  position: relative;
+  z-index: 1;
+  top: 0;
+  margin: 0 auto;
+}
+
+
+.blue_square {
+  margin: 25px 0px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  width: 100%;
+  height: 305px;
+  border-radius: 6px;
+  padding: 40px 140px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.blue_square_bg img {
+  height: 700px;
+  margin-top: -480px;
+  margin-left: -275px;
+  opacity: 0.8;
+}
+
+.block_headline {
+  position: relative;
+  z-index: 10;
+  color: gray;
+  top: ;
+  font-size: 28px;
+  color: #FFFFFF;
+  line-height: 32px;
+}
+
+.headline_highlight {
+  color: #1F487E;
+}
+
+.block_paragraph {
+  position: relative;
+  z-index: 10;
+  width: 347px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: 10px;
+
+}
+
+.block_button {
+  position: relative;
+  float: left;
+  z-index: 10;
+  font-size: 18px;
+  color: #1F487E;
+  background-color: #FFFFFF;
+  padding: 5px 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-left: -15px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.block_button:hover {
+  position: relative;
+  float: left;
+  z-index: 10;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: transparent;
+  padding: 5px 30px;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  margin-left: -15px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.block_button button {
+  cursor: pointer;
+}
+
+.block_button button:hover {
+  cursor: pointer;
+}
+
+#wave_1 {
+  position: relative;
+  z-index: 2;
+  height: 300px;
+  width: 100%;
+  opacity: 0.0;
+}
+
+.flex {
+  position: relative;
+  z-index: 6;
+}
+
+/*iPad / Block Image*/
+.block_example {
+  position: relative;
+  float: right;
+  margin-top: -445px;
+}
+
+.block_example img {
+  height: 560px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

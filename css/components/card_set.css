@@ -1,0 +1,115 @@
+.card_set {
+  display: flex;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card_spacing {
+  margin: 0 20px;
+}
+
+.card_custom {
+  height: 200px;
+  border-radius: 5px;
+}
+
+.card_title {
+  font-weight: 350;
+  color: #454955;
+  margin-top: -10px;
+}
+
+.card_icon {
+  height: 120px;
+  width: 120px;
+}
+
+.card_list {
+  line-height: 19px;
+  color: gray;
+}
+
+.splitter_card_custom {
+  position: relative;
+  margin: 0 auto;
+  height: 5px;
+  width: 100%;
+  background-color: #1F487E;
+  margin-bottom: 10px;
+  }
+
+@media (max-width: 768px) {
+  .card_set {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .card_spacing {
+    margin: 0px auto;
+
+  }
+
+  .card_custom {
+    display: block;
+    flex-wrap: wrap;
+    flex-basis: 320px;
+    margin-bottom: 50px;
+    text-align: left;
+  }
+}
+
+/*smartphone (iphone 6plus) optimisation*/
+@media (max-width: 420px) {
+  .card_icon {
+    height: 120px;
+    width: 120px;
+  }
+
+  .card_set {
+    margin-top: 40px;
+}
+
+  .card_custom {
+    margin-bottom: 60px;
+    flex-basis: 250px;
+  }
+
+  .card_custom h3 {
+    font-size: 1.5em;
+  }
+
+
+}
+
+/*smartphone (iphone 6) optimisation*/
+@media (max-width: 380px) {
+  .card_icon {
+    height: 105px;
+    width: 105px;
+  }
+
+  .card_set {
+    margin-top: 40px;
+}
+
+  .card_custom {
+    margin-bottom: 40px;
+  }
+
+  .card_custom h3 {
+    font-size: 1.5em;
+  }
+}
+
+
+
+
+
+
+
+
+

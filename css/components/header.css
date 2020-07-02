@@ -1,0 +1,182 @@
+header {
+/*background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);*/
+height: 660px;
+overflow: hidden;
+}
+
+#bg_gradient {
+  position: absolute;
+  object-fit: fill;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  height: 660px;
+  width: 100%;
+}
+
+.header_headline {
+  position: absolute;
+  font-size: 2.4em;
+  top: 220px;
+  color: #FFFFFF;
+  line-height: 1em;
+}
+
+.header_caption {
+  position: absolute;
+  font-size: 1.4em;
+  font-weight: 220;
+  top: 310px;
+  color: #FFFFFF;
+  line-height: 1.2em;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: no-repeat 50%/100% 100%;
+}
+
+
+@media (max-width: 992px) {
+  .header_headline {
+    position: absolute;
+    font-size: 2.2em;
+    top: 150px;
+    color: #FFFFFF;
+    line-height: 1em;
+}
+
+  .header_caption {
+    top: 230px;
+  }
+}
+
+/**/
+@media (max-width: 768px) {
+  header {
+    min-height: 471px;
+  }
+
+  .carousel {
+    min-height: 498.5px;
+
+  }
+
+  .header_headline {
+    position: relative;
+    top: 50px;
+    text-align: center;
+  }
+
+  .header_caption {
+    position: relative;
+    top: 55px;
+    text-align: center;
+  }
+
+  .slideshow_pic1 {
+    margin-top: 100px;
+    margin-left: -115px;
+
+  }
+
+  .slideshow_pic1 img {
+
+  }
+}
+
+/*tablet (ipad optimisation*/
+@media (max-width: 768px) {
+  header {
+    min-height: 300px;
+  }
+
+  #bg_gradient {
+    min-height: 300px;
+  }
+
+  .carousel {
+    min-height: 594px;
+  }
+}
+
+/*smartphone (iphone 6plus) optimisation*/
+@media (max-width: 420px) {
+  header {
+    min-height: 300px;
+  }
+
+  #bg_gradient {
+    min-height: 300px;
+  }
+
+  .carousel {
+    min-height: 385px;
+}
+
+  .header_headline {
+    font-size: 1.6em;
+    top: 40px;
+  }
+
+  .header_caption {
+    font-size: 0.9em;
+    margin-top: -10px;
+  }
+
+  .slideshow_pic1 {
+    margin-left: -65px;
+  }
+}
+
+/*smartphone (iphone 6) optimisation*/
+@media (max-width: 380px) {
+  header {
+    max-height: 375px;
+  }
+
+  #bg_gradient {
+    max-height: 375px;
+  }
+
+  .carousel {
+    min-height: 375px;  }
+
+  .header_headline {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+
+  .header_caption {
+    font-size: 0.9em;
+    top: 55px;
+
+  }
+
+  .slideshow_pic1 {
+    margin-left: -58px;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

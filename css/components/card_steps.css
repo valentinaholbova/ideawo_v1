@@ -1,0 +1,76 @@
+.section4 {
+  background-color: #FCFAFA;
+  height: 700px;
+  margin-top: -175.25px;
+  padding-top: 175.25px;
+}
+
+.steps_headline {
+
+}
+
+.steps_headline {
+  position: relative;
+  float: right;
+  margin-top: 30px;
+  line-height: 5px;
+}
+
+.steps_headline h2 {
+  font-size: 25px;
+  color: #1F487E;
+}
+
+.steps_headline p {
+  color: gray;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+#myVideo {
+  position: relative;
+  float: left;
+  height: 500px;
+  margin-left: 50px;
+  margin-top: px;
+}
+
+.slogan_animation {
+  position: absolute;
+  z-index: 20;
+  margin-top: 120px;
+  margin-left: 175px;
+}
+
+.slogan_animation h3 {
+  color: white;
+  font-size: 40px;
+}
+
+
+/*smartphone (iphone 6plus) optimisation*/
+@media (max-width: 420px) {
+  .steps_headline h2 {
+    font-size: 1.5em;
+  }
+
+  .steps_headline p {
+    font-size: 1em;
+    margin-top: -2px;
+  }
+
+  #myVideo {
+    height: 200px
+  }
+}
+
+/*smartphone (iphone 6) optimisation*/
+@media (max-width: 380px) {
+  .steps_headline h2 {
+    font-size: 1.4em;
+}
+  .steps_headline p {
+    font-size: 0.9em;
+    margin-top: -3px;
+  }
+}
